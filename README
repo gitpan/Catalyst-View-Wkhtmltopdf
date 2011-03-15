@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution Catalyst-View-Wkhtmltopdf,
-version 0.00001:
+version 0.0002:
 
   Catalyst view to convert HTML (or TT) content to PDF using wkhtmltopdf
 

@@ -1,0 +1,8 @@
+Revision history for Perl extension Catalyst::View::Wkhtmltopdf.
+
+0.0002
+    - remove a 0 from version number ;-)
+    - fix doc
+
+0.00001  Mon Mar 14 2011
+    - original version
