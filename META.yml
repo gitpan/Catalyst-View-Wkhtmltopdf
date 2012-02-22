@@ -20,4 +20,4 @@ requires:
   version: 0.77
 resources:
   repository: git://github.com/lordarthas/Catalyst-View-Wkhtmltopdf.git
-version: 0.5.0
+version: 0.5.1
