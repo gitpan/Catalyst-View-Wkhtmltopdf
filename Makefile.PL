@@ -4,29 +4,31 @@ use warnings;
 
 
 
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.30;
 
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'Catalyst view to convert HTML (or TT) content to PDF using wkhtmltopdf',
-  'AUTHOR' => 'Michele Beltrame <mb@italpro.net>',
-  'BUILD_REQUIRES' => {},
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31'
+  "ABSTRACT" => "Catalyst view to convert HTML (or TT) content to PDF using wkhtmltopdf",
+  "AUTHOR" => "Michele Beltrame <mb\@italpro.net>",
+  "BUILD_REQUIRES" => {},
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'Catalyst-View-Wkhtmltopdf',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'Catalyst::View::Wkhtmltopdf',
-  'PREREQ_PM' => {
-    'Catalyst::View::TT' => '0',
-    'File::Temp' => '0',
-    'URI::Escape' => '0'
+  "DISTNAME" => "Catalyst-View-Wkhtmltopdf",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "Catalyst::View::Wkhtmltopdf",
+  "PREREQ_PM" => {
+    "Catalyst::View::TT" => 0,
+    "File::Spec" => 0,
+    "File::Temp" => 0,
+    "URI::Escape" => 0,
+    "version" => "0.77"
   },
-  'VERSION' => '0.0004',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "0.5.0",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 
